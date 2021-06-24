@@ -1,2 +1,2 @@
-INSERT INTO tasks(id, status, title, lmt) values(nextval('tasks_seq'), 'f', 'シュート練習', CURRENT_DATE);
-INSERT INTO tasks(id, status, title, lmt) values(nextval('tasks_seq'), 'f', 'ドリブル練習', CURRENT_DATE);
+INSERT INTO tasks(status, title, lmt) values('f', 'シュート練習', CURRENT_DATE);
+INSERT INTO tasks(status, title, lmt) values('f', 'ドリブル練習', CURRENT_DATE);
